@@ -1,5 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import logo from './logo.svg';
+import { Routes, Route } from "react-router-dom";
 import './App.css';
 import Home from './Pages/Home/Home.js';
 import Nav from './Components/Nav/Nav.js';

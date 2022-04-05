@@ -1,6 +1,5 @@
 import React from "react";
 import './Home.css';
-import bgi from '../../assets/home/background-home-desktop.jpg';
 
 
 const Home = () => {
