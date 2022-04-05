@@ -1,0 +1,89 @@
+.logo{
+  width:10%
+}
+.hrzln{
+  width:30%;
+}
+.topnav {
+    background: rgb(208,214,249, .2);
+    overflow: hidden;
+    font-family: 'Barlow Condensed', sans-serif;
+    /* font-size: 28px; */
+    letter-spacing: 2px;
+    width: 60%
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    opacity:0.9;
+    text-align: center;
+    padding: 2% 3%;
+    text-decoration: none;
+   
+  
+  }
+  
+  
+  /* Change the color of links on hover */
+  
+  
+  .topnav a:hover {
+    border-bottom:4px solid #ffffff;
+    padding-bottom:3%;
+    opacity:0.7;
+  }
+  
+  .topnav a:focus {
+    border-bottom:4px solid #ffffff;
+    padding-bottom:3%;
+    opacity:1;
+    
+  }
+  
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 768px){
+    .hrzln, .navnum{
+      display:none;
+    }
+  }
+
+
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 576px) {
+    .topnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .navnum{
+      display:inline-block !important;
+    }
+    .topnav{width: 100%;}
+    .topnav.responsive {position: relative;
+    width: 100%;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      border: none;
+    }
+  
+  }
+  
+ 
+   
+

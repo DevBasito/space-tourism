@@ -1,0 +1,55 @@
+body{
+    background: url('../../assets/home/background-home-desktop.jpg') no-repeat center fixed;  
+    background-size: cover;
+    color: #D0D6F9;
+}
+#expbtn{
+    padding: 75px 45px;
+    
+    
+}
+#txt{
+    letter-spacing: 2px;
+    color: #0B0D17;
+    font-size: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#hometext{
+    margin-top: 5%;
+}
+#homebutton{
+    width:17%;
+    padding: 70px 0px 70px 0px;
+    background-color: #FFFFFF;
+    
+}
+
+#f1{
+    width: 50%;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background: url('../../assets/home/background-home-tablet.jpg') no-repeat center fixed;     
+        
+    }
+    #f1{
+     width: 100% !important; 
+     text-align: center;  
+    }
+    #homebutton{
+        width:34%;
+        padding: 70px 0px 70px 0px;
+        background-color: #FFFFFF;
+    }
+    #hometext{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px){
+    body{
+        background: url('../../assets/home/background-home-mobile.jpg') no-repeat center fixed;             
+    }
+    
+}

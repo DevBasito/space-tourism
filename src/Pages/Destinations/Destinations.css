@@ -1,0 +1,88 @@
+/* body{
+    background: url('../../assets/destination/background-destination-desktop.jpg') no-repeat center fixed !important;
+} */
+#optxt{
+    opacity: 0.3;
+}
+.opbodytxt{
+    opacity:0.7;
+}
+.destnav {
+    
+    font-family: 'Barlow Condensed', sans-serif;
+    /* font-size: 28px; */
+    letter-spacing: 2px;
+    width: 60%
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .destnav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+  
+  }
+  
+  
+  /* Change the color of links on hover */
+  
+  
+  .destnav a:hover {
+    border-bottom:4px solid #ffffff;
+    
+    opacity:0.7;
+  }
+  
+  .destnav a:focus {
+    border-bottom:4px solid #ffffff;
+ 
+    opacity:1;
+    
+  }
+
+  @media screen and (max-width: 768px){
+    body{
+        background: url('../../assets/destination/background-destination-tablet.jpg') no-repeat center fixed;
+    }
+    .div1, .div2{
+        width: 100% !important;
+        margin: auto;
+       
+        
+    }
+    .div2, #imgdiv{
+        text-align: center;
+    }
+    .destnav{
+        text-align: center !important;
+        margin: auto !important;
+    }
+    .headertext{
+      text-align: left !important;
+    }
+    
+  }
+  
+  @media screen and (max-width: 576px){
+    body{
+        background: url('../../assets/destination/background-destination-mobile.jpg') no-repeat center fixed;
+    }
+    .div1, .div2{
+        width: 100% !important;
+        margin: auto;
+        text-align: center;   
+    }
+    .destdist{
+        width:100%;
+        text-align: center;
+    }
+    .headertext{
+      text-align: center !important;
+    }
+  }
+  

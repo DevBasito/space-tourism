@@ -1,0 +1,84 @@
+body{
+    background: url('../../assets/crew/background-crew-desktop.jpg') no-repeat center fixed !important;
+}
+#optxt{
+    opacity: 0.3;
+}
+.mbl{
+    display: none;
+}
+#crewbio{
+    opacity:0.9;
+}
+#crewrole{
+    opacity: 0.4;
+}
+.crewnav {
+    
+    font-family: 'Barlow Condensed', sans-serif;
+    
+    letter-spacing: 2px;
+    width: 60%
+    
+}
+
+.dot a {
+    height: 6px;
+    width: 6px;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.dot a:focus{
+    background-color:white;
+    opacity: 1;
+
+}
+  
+
+
+  @media screen and (max-width: 768px){
+    body{
+        background: url('../../assets/crew/background-crew-tablet.jpg') no-repeat center fixed;
+    }
+    .div1, .div2{
+        width: 100% !important;
+        margin: auto;
+        text-align: center;  
+    }
+   
+    .crewnav{
+        text-align: center !important;
+        margin: auto !important;
+    }
+    #headertext{
+        text-align: left !important;
+    }
+    
+  }
+  
+  @media screen and (max-width: 576px){
+    body{
+        background: url('../../assets/crew/background-crew-mobile.jpg') no-repeat center fixed;
+    }
+    .div1, .div2{
+        width: 100% !important;
+        margin: auto;
+        text-align: center;   
+    }
+    
+    #headertext{
+        text-align: center !important;
+    }
+    .mbl{
+        display: contents;
+    }
+    .Dtab{
+        display: none;
+    }
+    
+  }
+  
