@@ -51,5 +51,10 @@ body{
     body{
         background: url('../../assets/home/background-home-mobile.jpg') no-repeat center fixed;             
     }
+    #homebutton{
+        width:50%;
+        padding: 70px 80px 70px 80px;
+        background-color: #FFFFFF;
+    }
     
 }

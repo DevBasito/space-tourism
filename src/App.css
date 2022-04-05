@@ -23,3 +23,21 @@
   font-size: 28px;
   letter-spacing: 4.75px;
 }
+
+@media screen and (max-width: 576px){
+  .heading1{
+    font-size: 80px;
+  }
+  .heading2{
+    font-size: 60px;
+  }
+  .heading3{
+    font-size: 30px;
+  }
+  .heading4{
+    font-size: 20px;
+  }
+  .heading5{
+    font-size: 18px;
+  }
+}
