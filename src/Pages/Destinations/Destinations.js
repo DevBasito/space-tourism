@@ -48,6 +48,7 @@ class Destination extends React.Component {
                         </div>
 
                             <br />
+                           
                         <div className="heading2" id="destname">{name.toUpperCase()}</div>
                         <div ><p className="opbodytxt" id="destdesc">{description}</p></div>
 

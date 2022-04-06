@@ -1,6 +1,6 @@
-/* body{
-    background: url('../../assets/destination/background-destination-desktop.jpg') no-repeat center fixed !important;
-} */
+body{
+    background: url('../../assets/destination/background-destination-desktop.jpg') no-repeat center fixed;
+}
 #optxt{
     opacity: 0.3;
 }
@@ -12,7 +12,7 @@
     font-family: 'Barlow Condensed', sans-serif;
     /* font-size: 28px; */
     letter-spacing: 2px;
-    width: 60%
+    
     
   }
   
@@ -59,11 +59,19 @@
         text-align: center;
     }
     .destnav{
-        text-align: center !important;
-        margin: auto !important;
+        margin: auto !important; 
+        width: 100%;
+        text-align: center;
+        
+        padding-left: 25% !important;
+       
     }
+    
     .headertext{
       text-align: left !important;
+    }
+    #destname{
+      margin-top: 50px;
     }
     
   }
@@ -83,6 +91,11 @@
     }
     .headertext{
       text-align: center !important;
+    }
+    .destnav{
+      width: fit-content;
+      padding-left: 0 !important;
+      
     }
   }
   
