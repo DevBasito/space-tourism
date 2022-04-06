@@ -19,7 +19,7 @@ class Destination extends React.Component {
     changeState(value) {
         this.setState({ activeDest: value })
     }
-    
+   
     render() {
         
         const { name, images, description, distance, travel } = data.destinations[this.state.activeDest];

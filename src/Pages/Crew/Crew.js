@@ -16,7 +16,7 @@ class Crew extends React.Component {
     changeState(value) {
         this.setState({ activeCrew: value })
     }
-
+    
     render() {
 
         const { name, images, role, bio } = data.crew[this.state.activeCrew];

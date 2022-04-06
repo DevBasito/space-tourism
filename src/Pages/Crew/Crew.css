@@ -1,5 +1,5 @@
 body{
-    background: url('../../assets/crew/background-crew-desktop.jpg') no-repeat center fixed !important;
+    background: url('../../assets/crew/background-crew-desktop.jpg') no-repeat center fixed ;
 }
 #optxt{
     opacity: 0.3;

@@ -15,6 +15,7 @@ class Technology extends React.Component {
         this.setState({ activeTech: value })
     }
 
+
     render() {
 
         const { name, images, description } = data.technology[this.state.activeTech];
