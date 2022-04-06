@@ -1,11 +1,13 @@
 import React from "react";
 import './Home.css';
 import { Link } from "react-router-dom";
+import Layout from "../../Components/Layout";
 
 
 const Home = () => {
 
     return (
+        <Layout>
         <div id="home">
 
 
@@ -30,7 +32,7 @@ const Home = () => {
                 
             </div>
 
-        </div>
+        </div></Layout>
     )
 }
 

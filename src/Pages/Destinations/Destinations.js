@@ -1,6 +1,7 @@
 import React from "react";
 import './Destinations.css';
 import data from "../../Constants/data.js";
+import Layout from "../../Components/Layout";
 
 
 class Destination extends React.Component {
@@ -25,7 +26,7 @@ class Destination extends React.Component {
         const { name, images, description, distance, travel } = data.destinations[this.state.activeDest];
         
         return (
-           
+           <Layout>
             <div id="destination">
 
                 <div className="container flex-wrap d-flex justify-content-between">
@@ -68,7 +69,7 @@ class Destination extends React.Component {
                     </div>
                 </div>
 
-            </div>
+            </div></Layout>
         )
     }
 }

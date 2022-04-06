@@ -1,6 +1,7 @@
 import React from "react";
 import './Technology.css';
 import data from "../../Constants/data.js";
+import Layout from "../../Components/Layout";
 
 class Technology extends React.Component {
     constructor(props) {
@@ -19,7 +20,7 @@ class Technology extends React.Component {
 
         const { name, images, description } = data.technology[this.state.activeTech];
         return (
-            <>
+            <Layout>
                 <div className="mb-5 container"id="headertext" >
                     <p className="heading5" > <span id="optxt" className="m-3">03</span>SPACE LAUNCH 101</p>
                 </div>
@@ -68,7 +69,7 @@ class Technology extends React.Component {
                     </div>
                 </div>
 
-            </>
+            </Layout>
         )
     }
 }

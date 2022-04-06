@@ -1,6 +1,7 @@
 import React from "react";
 import './Crew.css';
 import data from "../../Constants/data.js";
+import Layout from "../../Components/Layout";
 
 
 class Crew extends React.Component {
@@ -22,7 +23,7 @@ class Crew extends React.Component {
         const { name, images, role, bio } = data.crew[this.state.activeCrew];
 
         return (
-            <>
+            <Layout>
                 <div className="container flex-wrap d-flex justify-content-between" >
                     <div className="w-50 div1">
                         <div className="mb-5" >
@@ -85,7 +86,7 @@ class Crew extends React.Component {
                     </div>
                 </div>
 
-            </>
+            </Layout>
         )
     }
 }
