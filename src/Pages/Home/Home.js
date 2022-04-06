@@ -1,7 +1,11 @@
 import React from "react";
 import './Home.css';
 import { Link } from "react-router-dom";
+
+import Layout from "../../Components/Layout";
+
 import Images from "../../Constants/Images";
+
 
 
 class Home extends React.Component {
@@ -12,6 +16,12 @@ class Home extends React.Component {
     render() {
         return (
             <div id="home">
+
+
+    return (
+        <Layout>
+        <div id="home">
+
 
 
                 <div className="container justify-content-around flex-wrap d-flex" id="hometext">
@@ -35,9 +45,13 @@ class Home extends React.Component {
 
                 </div>
 
+        </div></Layout>
+    )
+
             </div>
         )
     }
+
 }
 
 
