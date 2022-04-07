@@ -17,13 +17,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./public/space_tourism_screenshot.png)
+![](./public/space_tourism_mobile_screenshot.png)
 
 
 ### Links
 
 - Solution URL: [https://github.com/DevBasito/space-tourism]
-- Live Site URL: [https://your-live-site-url.com]
+- Live Site URL: [https://devbasito-space-tourism-webb.netlify.app/]
 
 ## My process
 
