@@ -80,4 +80,7 @@
   #headertext {
     text-align: center !important;
   }
+  .tnav a{
+font-size: 32px;
+  }
 }

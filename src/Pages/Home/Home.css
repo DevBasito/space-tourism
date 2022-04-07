@@ -30,6 +30,7 @@
   background: white;
   box-shadow: 0 0 3px gray;
 }
+
 .round-button-circle:hover {
   border: 10px solid gray;
 }

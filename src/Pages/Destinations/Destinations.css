@@ -1,6 +1,6 @@
-/* #destination {
+/* .App {
   background: url("../../assets/destination/background-destination-desktop.jpg")
-    no-repeat center fixed;
+    no-repeat center fixed !important;
 } */
 #optxt {
   opacity: 0.3;
