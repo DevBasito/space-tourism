@@ -35,7 +35,7 @@ const Nav = () => {
           <Link to="/crew"><span className="navnum">02 </span> CREW</Link>
           <Link to="/technology"><span className="navnum">03 </span> TECHNOLOGY</Link>
 
-          <a href="javascript:void(0);" className="icon" onClick={hamburger}>
+          <a href="/#" className="icon" onClick={hamburger}>
             <img src={Images.Hamburger} alt=""  id="ham"/>
           </a>
 
