@@ -1,9 +1,9 @@
-/* #home {
+#home {
   background: url("../../assets/home/background-home-desktop.jpg") no-repeat
     center fixed;
   background-size: cover;
   color: #d0d6f9;
-} */
+}
 #expbtn {
   padding: 75px 45px;
 }

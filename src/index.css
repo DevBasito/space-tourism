@@ -14,3 +14,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+div.App{
+ 
+  background-size: cover !important;
+  width: 100vw !important;
+  height: 100vh !important
+}
+ 

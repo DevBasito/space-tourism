@@ -6,10 +6,10 @@ const Layout = ({ children }) => {
   const [currentPath] = useState(window.location.pathname);
   console.log(currentPath);
   return (
-    <div
+    <div 
       style={{
-        height: "100vh",
-        width: "100vw",
+        height: "100vh !important",
+        width: "100vw !important",
         background:
           currentPath == "/"
             ? `url("/assets/home/background-home-desktop.jpg")`
@@ -18,6 +18,7 @@ const Layout = ({ children }) => {
             : currentPath == "/crew"
             ? `url("/assets/crew/background-crew-desktop.jpg")`
             : `url("/assets/technology/background-technology-desktop.jpg")`,
+            backgroundSize: "cover !important"
       }}
     >
       <Nav />
