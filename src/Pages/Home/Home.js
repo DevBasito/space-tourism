@@ -9,7 +9,7 @@ class Home extends React.Component {
 
     componentDidMount(){
         document.querySelector('.App').style.background= `url("../../assets/home/background-home-desktop.jpg") no-repeat
-        center fixed`;
+        center fixed `;
     }
 
     render() {

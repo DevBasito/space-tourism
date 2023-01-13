@@ -8,8 +8,7 @@ const Layout = ({ children }) => {
   return (
     <div 
       style={{
-        height: "100vh !important",
-        width: "100vw !important",
+       
         background:
           currentPath == "/"
             ? `url("/assets/home/background-home-desktop.jpg")`
@@ -20,7 +19,7 @@ const Layout = ({ children }) => {
             : `url("/assets/technology/background-technology-desktop.jpg")`,
             backgroundSize: "cover !important"
       }}
-    >
+      className="img-fluid">
       <Nav />
       {children} <Footer />
     </div>
